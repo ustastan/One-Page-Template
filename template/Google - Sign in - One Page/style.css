@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(237, 237, 237);    
+}
+
+.container{
+    display: flex;
+    background-color:white;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 13%;
+    width: 75%;
+    height: 50vh;
+    border-radius: 40px;
+}
+
+
+.container-left{
+    margin-left: 4%;
+    font-size: 16px;
+    font-family: 'Open Sans';
+}
+
+.g-class{
+    width: 48px;
+}
+
+.mail{
+    font-family: 'Open Sans';
+    font-size: 15px;
+    width: 130%;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+
+.container-right{
+    display: grid;
+    margin-right: 4%;
+    padding-left: 10px;
+    border-width:40%;
+    float: right;
+}
+
+.forgotmail{
+    margin-top :2px;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    color: #0b57d0;
+
+}
+
+.forgotmail:hover{
+    color: #0b57d0;
+}
+
+.not{
+    font-family: 'Open Sans';
+    font-size: 15px;
+}
+
+
+.learn{
+    font-family: 'Open Sans';
+    font-size:15px;
+    color: #0b57d0;
+}
+
+.cont-bt{
+    display: flex;
+    justify-content:end;
+}
+
+.create-bt{
+   font-family: 'Open Sans';
+   font-size: 15px;
+   background-color: transparent;
+   color: #0b57d0;
+   width: 130px;
+   height: 40px;
+   border: none;
+   border-radius: 15px;
+   margin : 10px;
+}
+
+.create-bt:hover{
+    background-color:aliceblue;
+}
+
+.next-bt{
+    font-family: 'Open Sans';
+    font-size: 15px;
+    background-color:#0b57d0;
+    color: white;
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius:15px;
+    margin : 10px;
+}
+
+.next-bt:hover{
+    background-color: #005ff7;
+
+
+}
